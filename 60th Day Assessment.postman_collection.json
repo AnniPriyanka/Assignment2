@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "403445de-42b6-4b79-94ab-96fb7b07c53d",
+		"name": "60th Day Assessment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8888/sample/uat",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8888/sample/uat",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"sample",
+						"uat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9094/get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9094/get",
+					"host": [
+						"localhost"
+					],
+					"port": "9094",
+					"path": [
+						"get"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
